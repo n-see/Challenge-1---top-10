@@ -3,6 +3,10 @@
     color: white;
 }
 
+.offcanvas button.btn-close {
+    background-color: #ffffff; /* Change to the color you desire (e.g., red) */
+}
+
 .btn-bg {
     background-color: black;
     border: 1px solid white;
@@ -18,6 +22,22 @@
 }
 
 body {
-    background: linear-gradient(to bottom, black, red);
+    background: linear-gradient(to bottom, black, rgb(121, 39, 39));
     background-attachment: fixed;
+
+}
+
+.card-bg {
+    background: linear-gradient(to bottom, rgb(54, 53, 53), rgb(221, 221, 221));
+    border-color: black;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 3px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
 }
