@@ -4,8 +4,14 @@
 }
 
 .offcanvas button.btn-close {
-    background-color: #ffffff; /* Change to the color you desire (e.g., red) */
+    background-color: #ffffff; 
 }
+
+a.dropdown-item {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px; 
+}
+
 
 .btn-bg {
     background-color: black;
@@ -13,7 +19,7 @@
 }
 
 .btn-primary:hover {
-    background-color: grey; /* Change to your desired hover color */
+    background-color: grey; 
     border-color: white;
 }
 
