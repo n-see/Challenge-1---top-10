@@ -1,0 +1,23 @@
+.offcanvas {
+    background-color: rgb(40, 38, 38);
+    color: white;
+}
+
+.btn-bg {
+    background-color: black;
+    border: 1px solid white;
+}
+
+.btn-primary:hover {
+    background-color: grey; /* Change to your desired hover color */
+    border-color: white;
+}
+
+.navbar-bg {
+    background: linear-gradient(to bottom, black, rgb(45, 45, 45));
+}
+
+body {
+    background: linear-gradient(to bottom, black, red);
+    background-attachment: fixed;
+}
