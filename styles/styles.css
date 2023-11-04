@@ -7,7 +7,7 @@
     background-color: #ffffff; 
 }
 
-a.dropdown-item {
+a.dropdown-item { 
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px; 
 }
@@ -28,7 +28,7 @@ a.dropdown-item {
 }
 
 body {
-    background: linear-gradient(to bottom, black, rgb(121, 39, 39));
+    background: linear-gradient(to bottom, black, rgb(50, 50, 50));
     background-attachment: fixed;
 
 }
@@ -46,4 +46,13 @@ h3 {
 
 p {
     font-family: 'Times New Roman', Times, serif;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  color: #fff;
 }
